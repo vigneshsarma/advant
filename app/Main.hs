@@ -10,6 +10,7 @@ import qualified Advent2017.Day04 as Day04
 import qualified Advent2017.Day05 as Day05
 import qualified Advent2017.Day06 as Day06
 import qualified Advent2017.Day07 as Day07
+import qualified Advent2017.Day08 as Day08
 
 main :: IO ()
 main = do
@@ -29,4 +30,6 @@ main = do
                "06part2" -> show $ Day06.part2 input
                "07part1" -> show $ Day07.part1 input
                "07part2" -> show $ Day07.part2 input
+               "08part1" -> show $ Day08.part1 input
+               "08part2" -> show $ Day08.part2 input
                _ -> "no solution found"
