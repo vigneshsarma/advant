@@ -11,10 +11,12 @@ import qualified Advent2017.Day05 as Day05
 import qualified Advent2017.Day06 as Day06
 import qualified Advent2017.Day07 as Day07
 import qualified Advent2017.Day08 as Day08
+import qualified Advent2017.Day09 as Day09
 
 main :: IO ()
 main = do
   [problem, input] <- getArgs
+  fInput <- readFile input
   putStrLn $ case problem of
                "01part1" -> show $ Day01.part1 input
                "01part2" -> show $ Day01.part2 input
@@ -32,4 +34,6 @@ main = do
                "07part2" -> show $ Day07.part2 input
                "08part1" -> show $ Day08.part1 input
                "08part2" -> show $ Day08.part2 input
+               "09part1" -> show $ Day09.part1 fInput
+               "09part2" -> show $ Day09.part2 fInput
                _ -> "no solution found"
