@@ -25,6 +25,7 @@ dependencies:
 - containers
 - parsec
 - array
+- hashable
 
 library:
   source-dirs: src

@@ -1,4 +1,5 @@
 module Advent2018.Day02 where
+import Lib (alterWithDefault)
 import qualified Data.HashMap.Lazy as H (empty, lookupDefault, insert, HashMap, foldr)
 
 part2 :: String -> [(String, [(String, Int)])]
@@ -24,5 +25,4 @@ part1 ls = twos * threes
     checkCount = H.foldr (\v (two, three) -> if v == 2 then (1, three)
                            else if v == 3 then (two, 1)
                            else (two, three)) (0, 0)
-    freq = foldr (\k a -> H.insert k (inc $ H.lookupDefault 0 k a) a) H.empty
-    inc = (1+)
+    freq = foldr (\k a -> alterWithDefault (+) 0 1 k a) H.empty
