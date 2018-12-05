@@ -1,4 +1,3 @@
-{-# LANGUAGE PartialTypeSignatures #-}
 module Advent2018.Day02 where
 import qualified Data.HashMap.Lazy as H (empty, lookupDefault, insert, HashMap, foldr)
 

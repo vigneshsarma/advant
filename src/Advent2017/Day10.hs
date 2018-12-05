@@ -1,4 +1,3 @@
-{-# LANGUAGE PartialTypeSignatures #-}
 module Advent2017.Day10 where
 
 hashRound :: [Int] -> Int -> [Int]

@@ -1,4 +1,3 @@
-{-# LANGUAGE PartialTypeSignatures #-}
 module Advent2017.Day09 (part1, part2, parse) where
 
 type ParseState = (Int, Bool, Bool)

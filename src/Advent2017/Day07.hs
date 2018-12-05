@@ -1,4 +1,3 @@
-{-# LANGUAGE PartialTypeSignatures #-}
 module Advent2017.Day07 (part1
                         , part2
                         , parseTree

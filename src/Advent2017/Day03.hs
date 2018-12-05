@@ -1,4 +1,3 @@
-{-# LANGUAGE PartialTypeSignatures #-}
 module Advent2017.Day03 (part1
                         , part2
                         ) where

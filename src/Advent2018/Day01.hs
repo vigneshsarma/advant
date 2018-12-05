@@ -1,4 +1,3 @@
-{-# LANGUAGE PartialTypeSignatures #-}
 module Advent2018.Day01 where
 import Data.Char
 import Data.HashSet (empty, insert, member, HashSet)
