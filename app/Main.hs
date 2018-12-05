@@ -14,6 +14,7 @@ import qualified Advent2017.Day08 as Day08
 import qualified Advent2017.Day09 as Day09
 import qualified Advent2017.Day10 as Day10
 import qualified Advent2018.Day01 as Day1801
+import qualified Advent2018.Day02 as Day1802
 
 fInput = ""
 
@@ -45,4 +46,6 @@ main = do
                "10part1" -> show $ Day10.part1 input
                "1801p1" -> show $ Day1801.part1 input
                "1801p2" -> show $ Day1801.part2 input
+               "1802p1" -> show $ Day1802.part1 input
+               "1802p2" -> show $ Day1802.part2 input
                _ -> "no solution found"
